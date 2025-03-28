@@ -33,6 +33,34 @@ This is a full-stack **CRUD web application** built using **Spring Boot**, desig
 
 ---
 
+## 🌐 URL Endpoints
+
+### 📚 Author Module
+
+| Method | URL                       | Description                  |
+|--------|---------------------------|------------------------------|
+| GET    | `/authors`                | View list of all authors     |
+| GET    | `/authors/add`            | Show form to add new author |
+| POST   | `/authors/save`           | Save new author              |
+| GET    | `/authors/edit/{id}`      | Show form to edit author     |
+| POST   | `/authors/update/{id}`    | Update author info           |
+| GET    | `/authors/delete/{id}`    | Delete author                |
+| GET    | `/authors/view/{id}`      | View author details          |
+
+### 📝 Article Module
+
+| Method | URL                        | Description                      |
+|--------|----------------------------|----------------------------------|
+| GET    | `/articles`                | View list of all articles        |
+| GET    | `/articles/add`            | Show form to add new article     |
+| POST   | `/articles/save`           | Save new article                 |
+| GET    | `/articles/edit/{id}`      | Show form to edit article        |
+| POST   | `/articles/update/{id}`    | Update article info              |
+| GET    | `/articles/delete/{id}`    | Delete article                   |
+| GET    | `/articles/view/{id}`      | View article details             |
+
+---
+
 ## 📸 Screenshots
 
 <h1>List Page Of Article</h1>
