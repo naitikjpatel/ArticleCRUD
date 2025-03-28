@@ -34,30 +34,20 @@ This is a full-stack **CRUD web application** built using **Spring Boot**, desig
 ---
 
 ## 🌐 URL Endpoints
-
-### 📚 Author Module
-
-| Method | URL                       | Description                  |
-|--------|---------------------------|------------------------------|
-| GET    | `/authors`                | View list of all authors     |
-| GET    | `/authors/add`            | Show form to add new author |
-| POST   | `/authors/save`           | Save new author              |
-| GET    | `/authors/edit/{id}`      | Show form to edit author     |
-| POST   | `/authors/update/{id}`    | Update author info           |
-| GET    | `/authors/delete/{id}`    | Delete author                |
-| GET    | `/authors/view/{id}`      | View author details          |
-
-### 📝 Article Module
-
-| Method | URL                        | Description                      |
-|--------|----------------------------|----------------------------------|
-| GET    | `/articles`                | View list of all articles        |
-| GET    | `/articles/add`            | Show form to add new article     |
-| POST   | `/articles/save`           | Save new article                 |
-| GET    | `/articles/edit/{id}`      | Show form to edit article        |
-| POST   | `/articles/update/{id}`    | Update article info              |
-| GET    | `/articles/delete/{id}`    | Delete article                   |
-| GET    | `/articles/view/{id}`      | View article details             |
+| HTTP Method | URL                      | Description                      | View (JSP)            |
+|-------------|--------------------------|----------------------------------|------------------------|
+| GET         | /authors/new             | Show form to create new author  | author-form            |
+| POST        | /authors/save            | Save a new author                | Redirect or form again |
+| GET         | /authors/list            | List all authors                 | author-list            |
+| GET         | /authors/edit/{id}       | Edit an existing author          | author-form            |
+| GET         | /authors/delete/{id}     | Delete an author by ID           | Redirect to list       |
+| GET         | /articles/new            | Show form to create new article  | article-form           |
+| POST        | /articles/save           | Save new article with banner     | Redirect or form again |
+| GET         | /articles/list or /      | List all articles                | article-list           |
+| GET         | /articles/view/{id}      | View a single article            | article-view           |
+| GET         | /articles/edit/{id}      | Show edit form for article       | article-edit-form      |
+| POST        | /articles/update         | Update an article                | Redirect or form again |
+| GET         | /articles/delete/{id}    | Delete an article by ID          | Redirect to list       |
 
 ---
 
