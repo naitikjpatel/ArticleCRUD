@@ -35,10 +35,17 @@ This is a full-stack **CRUD web application** built using **Spring Boot**, desig
 
 ## 📸 Screenshots
 
+<h1>List Page Of Article</h1>
 ![Screenshot (1540)](https://github.com/user-attachments/assets/95c41c17-c301-4afc-b8dd-89f92bb422da)
-
+<br/><br/>
+<h1>View Page Of Article</h1>
 ![Screenshot (1541)](https://github.com/user-attachments/assets/7b5c8d69-a6cb-4d4d-98cb-bd9250007197)
+<br/><br/>
+<h1>Edit Page Of Article</h1>
 ![Screenshot (1542)](https://github.com/user-attachments/assets/7360d2ca-90fd-49cd-881c-783ee84d7493)
+<br/><br/>
+<h1>Add Page of Article</h1>
+![image](https://github.com/user-attachments/assets/5564b521-2be4-42d1-a773-309c02bc5d57)
 
 ---
 
