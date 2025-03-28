@@ -35,7 +35,10 @@ This is a full-stack **CRUD web application** built using **Spring Boot**, desig
 
 ## 📸 Screenshots
 
-> Add screenshots of `article-form`, `article-list`, and `article-view` if available.
+![Screenshot (1540)](https://github.com/user-attachments/assets/95c41c17-c301-4afc-b8dd-89f92bb422da)
+
+![Screenshot (1541)](https://github.com/user-attachments/assets/7b5c8d69-a6cb-4d4d-98cb-bd9250007197)
+![Screenshot (1542)](https://github.com/user-attachments/assets/7360d2ca-90fd-49cd-881c-783ee84d7493)
 
 ---
 
